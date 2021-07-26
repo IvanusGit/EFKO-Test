@@ -34,6 +34,57 @@
     <p>Результат: <?php echo $res ?></p>
 <?php endif ?>
 
+<p>Таблица расчета для шрота</p>
+<table border="1">
+   <tr>
+    <th>Тоннаж\Месяц</th><th>Январь</th><th>Февраль</th><th>Август</th><th>Сентябрь</th><th>Октябрь</th><th>Ноябрь</th>
+   </tr>
+   <tr>
+    <td>25</td><td>125</td><td>121</td><td>137</td><td>126</td><td>124</td><td>128</td>
+    </tr>
+   <tr>
+   <td>50</td><td>145</td><td>118</td><td>119</td><td>121</td><td>122</td><td>147</td>
+   </tr>
+   <tr>
+   <td>75</td><td>136</td><td>137</td><td>141</td><td>137</td><td>131</td><td>143</td>
+   </tr>
+   <tr>
+   <td>100</td><td>138</td><td>142</td><td>117</td><td>124</td><td>147</td><td>112</td>
+</table>
+<p>Таблица расчета для жмых</p>
+<table border="1">
+   <tr>
+    <th>Тоннаж\Месяц</th><th>Январь</th><th>Февраль</th><th>Август</th><th>Сентябрь</th><th>Октябрь</th><th>Ноябрь</th>
+   </tr>
+   <tr>
+    <td>25</td><td>121</td><td>137</td><td>124</td><td>137</td><td>122</td><td>125</td>
+    </tr>
+   <tr>
+   <td>50</td><td>118</td><td>121</td><td>145</td><td>147</td><td>143</td><td>145</td>
+   </tr>
+   <tr>
+   <td>75</td><td>137</td><td>124</td><td>136</td><td>143</td><td>112</td><td>136</td>
+   </tr>
+   <tr>
+   <td>100</td><td>142</td><td>131</td><td>138</td><td>112</td><td>117</td><td>138</td>
+</table>
+<p>Таблица расчета для сои</p>
+<table border="1">
+   <tr>
+    <th>Тоннаж\Месяц</th><th>Январь</th><th>Февраль</th><th>Август</th><th>Сентябрь</th><th>Октябрь</th><th>Ноябрь</th>
+   </tr>
+   <tr>
+    <td>25</td><td>137</td><td>125</td><td>124</td><td>122</td><td>137</td><td>121</td>
+    </tr>
+   <tr>
+   <td>50</td><td>147</td><td>145</td><td>145</td><td>143</td><td>119</td><td>118</td>
+   </tr>
+   <tr>
+   <td>75</td><td>112</td><td>136</td><td>136</td><td>112</td><td>141</td><td>137</td>
+   </tr>
+   <tr>
+   <td>100</td><td>122</td><td>138</td><td>138</td><td>117</td><td>117</td><td>142</td>
+</table>
 </body>
 
 </html>
